@@ -13,6 +13,3 @@ Examples:
 | empname  | source   | destination    | time   | email                  | phone        | button  | message        | actionButton | page   |
 | "Naveen" | "Office" | "Kammanahalli" | "5:30" | "naveenhome@gmail.com" | "9810547500" | "Share" | "Ride shared." | "Ok"         | "Home" |
 | "Naveen" | "Office" | "Kammanahalli" | "5:30" | "naveenhome@gmail.com" | " " | "Share" | "Phone No is required." | "Ok"         | "Quick Post" |
-
-
-

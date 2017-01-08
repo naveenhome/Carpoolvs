@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carpool", "Carpool\Carpool.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarpoolDAO", "CarpoolDAO\CarpoolDAO.csproj", "{D91AFF77-E689-41A1-B637-8588D3D64A71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carpoolmodels", "Carpoolmodels\Carpoolmodels.csproj", "{4ACF1AA9-8F92-4EFF-B9AD-80D02145948D}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CarpoolDB", "CarpoolDB\CarpoolDB.sqlproj", "{34790CCE-4F00-4C32-81BA-4A78492582D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,16 @@ Global
 		{D91AFF77-E689-41A1-B637-8588D3D64A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D91AFF77-E689-41A1-B637-8588D3D64A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D91AFF77-E689-41A1-B637-8588D3D64A71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ACF1AA9-8F92-4EFF-B9AD-80D02145948D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ACF1AA9-8F92-4EFF-B9AD-80D02145948D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ACF1AA9-8F92-4EFF-B9AD-80D02145948D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ACF1AA9-8F92-4EFF-B9AD-80D02145948D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34790CCE-4F00-4C32-81BA-4A78492582D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34790CCE-4F00-4C32-81BA-4A78492582D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34790CCE-4F00-4C32-81BA-4A78492582D9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{34790CCE-4F00-4C32-81BA-4A78492582D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34790CCE-4F00-4C32-81BA-4A78492582D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34790CCE-4F00-4C32-81BA-4A78492582D9}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

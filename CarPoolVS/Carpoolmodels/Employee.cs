@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Carpoolmodels
 {
-    class Employee
+    public class Employee
     {
         public string Name { get; set; }
         public string Email { get; set; }

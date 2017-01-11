@@ -41,6 +41,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RideService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CarpoolDAO\CarpoolDAO.csproj">
+      <Project>{d91aff77-e689-41a1-b637-8588d3d64a71}</Project>
+      <Name>CarpoolDAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Carpoolmodels\Carpoolmodels.csproj">
+      <Project>{4acf1aa9-8f92-4eff-b9ad-80d02145948d}</Project>
+      <Name>Carpoolmodels</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

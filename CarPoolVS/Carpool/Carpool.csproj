@@ -449,6 +449,16 @@
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Carpoolmodels\Carpoolmodels.csproj">
+      <Project>{4acf1aa9-8f92-4eff-b9ad-80d02145948d}</Project>
+      <Name>Carpoolmodels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CarpoolService\CarpoolService.csproj">
+      <Project>{09ee0e64-35b8-4d65-92ab-f815716360b0}</Project>
+      <Name>CarpoolService</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

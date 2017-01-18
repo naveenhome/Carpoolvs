@@ -8,7 +8,19 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>List of available rides</div>
+    <div>List of available rides<br />
+        <br />
+        <asp:GridView ID="RideView" runat="server" AutoGenerateColumns="False">
+            <Columns>
+                <asp:BoundField DataField="EmpName" HeaderText="Employee Name" />
+                <asp:BoundField DataField="Source" HeaderText="Source" />
+                <asp:BoundField DataField="Destination" HeaderText="Destination" />
+                <asp:BoundField DataField="Ride_Time" HeaderText="Time" />
+                <asp:BoundField DataField="Email" HeaderText="Email" />
+                <asp:BoundField DataField="Phone" HeaderText="Phone No" />
+            </Columns>
+        </asp:GridView>
+        </div>
         
     </form>
 </body>

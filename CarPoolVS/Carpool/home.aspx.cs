@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using CarpoolService;
 
 namespace Carpool
 {
@@ -11,7 +12,9 @@ namespace Carpool
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            RideService rideService = new RideService();
+            RideView.DataSource = rideService.GetRides();
+            RideView.DataBind();
         }
     }
 }

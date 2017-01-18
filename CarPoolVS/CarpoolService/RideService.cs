@@ -4,14 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Carpoolmodels;
+using CarpoolDAO;
 
 namespace CarpoolService
 {
     public class RideService
     {
-        public RideCollection SaveRide(RideCollection rideCollection)
+        public Ride SaveRide(Ride ride)
         {
-            return rideCollection;
+            return ride;
+        }
+
+        public List<Ride> GetRides()
+        {
+            RideDAO rideDAO = new RideDAO();
+            return rideDAO.GetRides();
         }
     }
 }
